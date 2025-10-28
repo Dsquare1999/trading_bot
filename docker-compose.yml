@@ -28,7 +28,7 @@ services:
 
   web:
     # On remplace 'build: .' par 'image:'
-    image: datagod1999/trading-bot-app-1:latest
+    image: datagod1999/trading-bot-app-2:latest
     
     # La commande de démarrage est cruciale
     command: sh -c "python manage.py migrate --noinput && 
@@ -52,7 +52,7 @@ services:
   # LE WORKER CELERY - modifié pour utiliser la MÊME image pré-construite
   celery_worker:
     # On utilise exactement la même image
-    image: datagod1999/trading-bot-app-1:latest # <--- TON IMAGE SUR DOCKER HUB
+    image: datagod1999/trading-bot-app-2:latest # <--- TON IMAGE SUR DOCKER HUB
     
     # La commande est différente ! C'est elle qui définit le rôle de ce conteneur.
     # On utilise la commande de diagnostic pour commencer.
