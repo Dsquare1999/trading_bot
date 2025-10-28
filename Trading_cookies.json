@@ -1,0 +1,52 @@
+[
+    {
+        "domain": ".pocketoption.com",
+        "name": "no-login-captcha",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": null,
+        "value": "1",
+        "expiry": 1795547671
+    },
+    {
+        "domain": ".pocketoption.com",
+        "name": "ci_session",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": null,
+        "value": "a%3A4%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%229a5ed60bd55dab604ae46821c006ac81%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A13%3A%22154.72.119.63%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A117%3A%22Mozilla%2F5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F141.0.0.0%20Safari%2F537.36%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1760987670%3B%7Dc60601a07b08cad7da4d3c2cbd3a93a3",
+        "expiry": 1761592471
+    },
+    {
+        "domain": ".pocketoption.com",
+        "name": "lang",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": null,
+        "value": "en",
+        "expiry": 1795547675
+    },
+    {
+        "domain": ".pocketoption.com",
+        "name": "loggedIn",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": null,
+        "value": "1",
+        "expiry": 1792523671
+    },
+    {
+        "domain": ".pocketoption.com",
+        "name": "uuid",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": null,
+        "value": "30b38dbc-5db7-476d-a55e-7739cd876e59",
+        "expiry": 1787452715
+    }
+]
