@@ -14,6 +14,8 @@ services:
       interval: 5s
       timeout: 5s
       retries: 5
+    networks:
+      - webnet
 
   redis:
     image: redis:alpine
@@ -24,6 +26,8 @@ services:
       interval: 5s
       timeout: 5s
       retries: 5
+    networks:
+      - webnet 
 
   web:
     image: datagod1999/trading-bot-app-2:latest
