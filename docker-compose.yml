@@ -44,8 +44,8 @@ services:
     env_file: .env
     restart: unless-stopped
     environment:
-      - VIRTUAL_HOST=app.lephenix.bj         # 👈 ton sous-domaine Cloudflare
-      - LETSENCRYPT_HOST=app.lephenix.bj     # 👈 même sous-domaine
+      - VIRTUAL_HOST=bot.lephenix.bj         # 👈 ton sous-domaine Cloudflare
+      - LETSENCRYPT_HOST=bot.lephenix.bj     # 👈 même sous-domaine
       - LETSENCRYPT_EMAIL=mail@lephenix.bj  # 👈 ton adresse email pour Let's Encrypt
     networks:
       - webnet
