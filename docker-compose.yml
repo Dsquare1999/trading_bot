@@ -88,7 +88,7 @@ services:
     restart: always
     environment:
       - NGINX_PROXY_CONTAINER=nginx-proxy
-      - DEFAULT_EMAIL=tonemail@exemple.com
+      - DEFAULT_EMAIL=mail@lephenix.bj
     volumes_from:
       - nginx-proxy
     volumes:
