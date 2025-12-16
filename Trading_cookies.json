@@ -1,52 +1,80 @@
 [
     {
         "domain": ".pocketoption.com",
+        "expirationDate": 1800444436.049158,
+        "hostOnly": false,
+        "httpOnly": false,
         "name": "no-login-captcha",
         "path": "/",
-        "httpOnly": false,
-        "secure": true,
         "sameSite": null,
-        "value": "1",
-        "expiry": 1795547671
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "1"
     },
     {
         "domain": ".pocketoption.com",
+        "expirationDate": 1766489236.049075,
+        "hostOnly": false,
+        "httpOnly": false,
         "name": "ci_session",
         "path": "/",
-        "httpOnly": false,
-        "secure": true,
         "sameSite": null,
-        "value": "a%3A4%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%229a5ed60bd55dab604ae46821c006ac81%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A13%3A%22154.72.119.63%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A117%3A%22Mozilla%2F5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F141.0.0.0%20Safari%2F537.36%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1760987670%3B%7Dc60601a07b08cad7da4d3c2cbd3a93a3",
-        "expiry": 1761592471
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "a%3A4%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%22f6970a2e3d5299b4ce3d9c3cb94842c3%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A13%3A%2241.79.219.118%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A117%3A%22Mozilla%2F5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F143.0.0.0%20Safari%2F537.36%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1765884435%3B%7D06626a088c629c8dbf59791796f1fc53"
     },
     {
         "domain": ".pocketoption.com",
+        "expirationDate": 1800444440.92455,
+        "hostOnly": false,
+        "httpOnly": false,
         "name": "lang",
         "path": "/",
-        "httpOnly": false,
-        "secure": true,
         "sameSite": null,
-        "value": "en",
-        "expiry": 1795547675
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "en"
     },
     {
         "domain": ".pocketoption.com",
+        "expirationDate": 1797420436.049119,
+        "hostOnly": false,
+        "httpOnly": false,
         "name": "loggedIn",
         "path": "/",
-        "httpOnly": false,
-        "secure": true,
         "sameSite": null,
-        "value": "1",
-        "expiry": 1792523671
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "1"
     },
     {
         "domain": ".pocketoption.com",
+        "expirationDate": 1766966397.924615,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "ny2026_st2m",
+        "path": "/",
+        "sameSite": null,
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "1"
+    },
+    {
+        "domain": ".pocketoption.com",
+        "expirationDate": 1787452715.727697,
+        "hostOnly": false,
+        "httpOnly": false,
         "name": "uuid",
         "path": "/",
-        "httpOnly": false,
-        "secure": true,
         "sameSite": null,
-        "value": "30b38dbc-5db7-476d-a55e-7739cd876e59",
-        "expiry": 1787452715
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "30b38dbc-5db7-476d-a55e-7739cd876e59"
     }
 ]
